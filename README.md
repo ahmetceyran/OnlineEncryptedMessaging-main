@@ -1,7 +1,7 @@
 # OnlineEncryptedMessaging-main
 ### Online encrypted messaging app
 ### Kiviat-Graph
- ![alt text](https://github.com/ahmetceyran/OnlineEncryptedMessaging-main/blob/main/img/kiviat_graph.jpeg)
+ ![alt text](https://github.com/ahmetceyran/OnlineEncryptedMessaging-main/blob/main/img/WhatsApp%20Image%202021-12-31%20at%209.37.05%20PM.jpeg)
 ### Block Histogram
 
  ![alt text](https://github.com/ahmetceyran/OnlineEncryptedMessaging-main/blob/main/img/block_histogram.jpeg)
