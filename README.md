@@ -12,4 +12,13 @@ Ulaş Canımoğlu-192802039
 Ömer Fikri Gülcemal-192802009
 Ahmet Ceyran-192802057
 ```
+### Kullanılan Teknolojiler
+```
+Socket programlama
+Javascript
+HTML,CSS
+BOOTSTRAP
+Source Monitor
+
+```
 
