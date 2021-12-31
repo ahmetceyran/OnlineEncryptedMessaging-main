@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Chat App</title>
+  
+  <link rel="stylesheet" href="dist/css/bootstrap.min.css">
+  <style>
+
+    body{
+      background-image: url("img/background.jfif");
+    }
+
+    div.container{
+      background-color: grey;
+    }
+
+    div.container{
+      opacity: 0.7;
+    }
+
+    
+  </style>
+
+
+
+</head>
+<body>
+
+
+  <div class="d-flex flex-row">
+
+    <nav class="ml-2 navbar bg-dark px-3 ">
+
+      
+      <ul class="navbar-nav ml-4">
+        <li class="nav-item  mb-2">
+          <a class="nav-link m-n3" href="#">Chat Type</a>
+        </li>
+        <li class="nav-item">
+          <div class="SHA256 text-light">
+            <input type="radio" id="customRadioInline1" value="sha" name="customRadioInline" class="custom-control-input" checked>
+            <label class="custom-control-label" for="customRadioInline1">SHA-256</label>
+          </div>
+        </li>
+        <li class="nav-item">
+          <div class="SPN text-light">
+            <input type="radio" id="customRadioInline2" value="spn" name="customRadioInline" class="custom-control-input">
+            <label class="custom-control-label" for="customRadioInline2">SPN</label>
+          </div>
+        </li>
+      </ul>
+    
+    </nav>
+  
+  
+  
+    <div class="container">
+      <div id="message-container" class="bg-light d-flex flex-column" style="height: 85vh;overflow-y: auto;"></div>
+    <form id="send-container">
+      
+  
+      <div class="input-group mb-3">
+        <input id="message-input" type="text" class="form-control" placeholder="Press Enter to send message" aria-label="Press Enter to send message" aria-describedby="send-button">
+        <div class="input-group-append">
+        </div>
+      </div>
+    </form>
+    </div>
+
+
+  </div>
+
+  
+
+
+  <script src="dist/js/jquery.js"></script>
+  <script src="dist/js/bootstrap.min.js"></script>
+  <script defer src="http://localhost:3000/socket.io/socket.io.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/js-sha256/0.9.0/sha256.min.js"></script>
+  <script defer src="script.js" type="module"></script>
+
+</body>
+</html> 
